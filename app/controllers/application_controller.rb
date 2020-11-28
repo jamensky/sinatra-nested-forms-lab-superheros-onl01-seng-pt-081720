@@ -9,9 +9,7 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    puts params[:team]
-    puts params[:motto]
-
+    
     erb :team
   end
 
