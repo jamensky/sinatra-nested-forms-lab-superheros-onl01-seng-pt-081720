@@ -12,7 +12,7 @@ class App < Sinatra::Base
     binding.pry
 
     puts params[:team]
-    #erb :team
+    erb :team
   end
 
 
